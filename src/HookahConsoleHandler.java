@@ -94,8 +94,7 @@ public class HookahConsoleHandler {
 
     public void deleteByFrotress(){
         SubMenuFrotress();
-        String frotress = choiceFrotress();
-        hookahService.deleteByFrotress(frotress);
+        hookahService.deleteByFrotress(choiceFrotress());
     }
 }
 
